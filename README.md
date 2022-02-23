@@ -1,16 +1,16 @@
-# HomeLab Guide
-There are multiple aspects to creating a HomeLab. 
-
-These aspects break down into a few categories.
-- Server Hardware
-- Software
-- Networking Hardware
-- Mounting Hardware (Optional)
+# HomeLab Start Guide
+## Table of Contents
+[Server Hardware](#server-hardware)
+[Software](#software)
+[Networking Hardware](#networking-hardware)
+[Mounting Hardware](#mounting-hardware)
+[Example Projects](#example-projects)
+[Useful Resources](#useful-resources)
 
 ## Server Hardware
-There are a million different choices we can pick with our hardware. Depending on your budget you can use a older computer from a garage sale or buy a used server from online. Used servers are very common because of data centers and companies upgrade their hardware every few years which creates a surplus of used hardware.
+There are a million different choices we can pick with our hardware. Depending on your budget you can use an older computer from a garage sale or buy a used server from online. Used servers are very common because data centers and companies upgrade their hardware every few years which creates a surplus of used hardware.
 
-The general criteria for hardware to have seamless virtualization follows: 
+The general criteria for seamless virtualization follows: 
 - 64-bit processor that supports virtualization with at least 8 threads or more
 - 8-16GB+ of RAM 
 - 500GB+ of storage (preferably an SSD for the boot drive of the operating system)
@@ -23,7 +23,6 @@ Depending on where you want to start, you can go for a bare-metal OS like [Ubunt
 
 ## Networking Hardware
 Our networking category can be pretty basic. 
-The basics are:
 - Router (Your Home's ISP Router or standalone)
 - Managed Switch (Ability to configure for VLANs, Port Security, etc.)
 - Cables!
@@ -32,7 +31,7 @@ Using your ISP's router for your HomeLab connection is perfectly fine. However, 
 
 Getting a managed switch is highly important because you want to secure your HomeLab's network depending on your use case. For example, using [VLANs](https://www.youtube.com/watch?v=MmwF1oHOvmg) to segment each network with its corresponding devices.
 
-## Mounting Hardware (Optional)
+## Mounting Hardware
 If you're planning to go for the used server route, it is preferred to get some mounting hardware. [Racks](https://en.wikipedia.org/wiki/19-inch_rack) are used for storing all your HomeLab equipment. They come in many different sizes to support whatever you would like. These sizes are [Rack Units](https://en.wikipedia.org/wiki/Rack_unit) which change the overall height of your rack. Your server, switch, and router can all be mounted by its ears or buying a shelf that can support the weight. There are fancier ways to mount servers. For example, rails allow you to pull out the server and maintenance it while it is still within the rack.
 
 ### Example Projects
