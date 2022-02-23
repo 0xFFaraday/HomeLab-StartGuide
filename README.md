@@ -1,11 +1,11 @@
 # HomeLab Start Guide
 ## Table of Contents
-[Server Hardware](#server-hardware)
-[Software](#software)
-[Networking Hardware](#networking-hardware)
-[Mounting Hardware](#mounting-hardware)
-[Example Projects](#example-projects)
-[Useful Resources](#useful-resources)
+- [Server Hardware](#server-hardware)
+- [Software](#software)
+- [Networking Hardware](#networking-hardware)
+- [Mounting Hardware](#mounting-hardware)
+- [Example Projects](#example-projects)
+- [Useful Resources](#useful-resources)
 
 ## Server Hardware
 There are a million different choices we can pick with our hardware. Depending on your budget you can use an older computer from a garage sale or buy a used server from online. Used servers are very common because data centers and companies upgrade their hardware every few years which creates a surplus of used hardware.
@@ -43,7 +43,3 @@ If you're planning to go for the used server route, it is preferred to get some 
 ### Useful Resources
 - [NetworkChuck - Network Guides and Hacking](https://www.youtube.com/c/NetworkChuck)
 - [TechnoTim - HomeLab Hardware/Software infrastructure guides](https://www.youtube.com/c/TechnoTimLive)
-
-
-
-
